@@ -8,7 +8,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=2119edef0916b0bd511cb3c731076271"
 
 DEPENDS = "zlib"
 
-SRC_URI = "git://github.com/assimp/assimp.git;nobranch=1;protocol=https \
+SRC_URI = "git://github.com/KrisJe/assimp.git;branch=Branch_v5.0.1;protocol=https;commit=8f0c6b04b2257a520aaab38421b2e090204b69df \
            file://0001-closes-https-github.com-assimp-assimp-issues-2733-up.patch \
            file://0001-Use-ASSIMP_LIB_INSTALL_DIR-to-search-library.patch \
            "
