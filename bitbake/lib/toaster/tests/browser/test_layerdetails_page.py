@@ -113,6 +113,7 @@ class TestLayerDetailsPage(SeleniumTestCase):
 
         # Refresh the page to see if the new values are returned
         self.get(self.url)
+        self.wait_until_visible("#add-remove-layer-btn")
 
         new_values = ["%s-edited" % old_val
                       for old_val in self.initial_values]
